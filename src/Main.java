@@ -6,9 +6,9 @@ public class Main {
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else if (clientOS == 1) {
-           System.out.println("Установите версию приложения для Android по ссылке");
-           } else {
-           System.out.println("обратиться за помощью");
+            System.out.println("Установите версию приложения для Android по ссылке");
+        } else {
+            System.out.println("обратиться за помощью");
         }
         //задание 2
         System.out.println("задание 2");
@@ -22,6 +22,14 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         } else if (clientDeviceYear >= 2015 && clientOS == 1) {
             System.out.println("Установите обычную версию приложения для Android по ссылке");
+        }
+        //задание 3
+        System.out.println("задание 3");
+        int year = 1987;
+        if (year % 4 == 0 && year % 100 !=0 || year % 400 == 0) {
+            System.out.println(year + " год високосный");
+        } else {
+            System.out.println(year + " год не високосный");
         }
     }
 }
