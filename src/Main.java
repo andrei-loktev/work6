@@ -43,5 +43,48 @@ public class Main {
         } else {
             System.out.println("доставки нет");
         }
+        //задание 5
+        System.out.println("задание 5");
+        int mountNumber = 12;
+        switch (mountNumber) {
+            case 1:
+                System.out.println("яеварь - зима");
+                break;
+            case 2:
+                System.out.println("февраль - зима");
+                break;
+            case 3:
+                System.out.println("март - весна");
+                break;
+            case 4:
+                System.out.println("апрель - весна");
+                break;
+            case 5:
+                System.out.println("май - весна");
+                break;
+            case 6:
+                System.out.println("июнь - лето");
+                break;
+            case 7:
+                System.out.println("июль - лето");
+                break;
+            case 8:
+                System.out.println("август - лето");
+                break;
+            case 9:
+                System.out.println("сентябрь - осень");
+                break;
+            case 10:
+                System.out.println("октябрь - осень");
+                break;
+            case 11:
+                System.out.println("ноябрь - осень");
+                break;
+            case 12:
+                System.out.println("декабрь - зима");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
     }
 }
