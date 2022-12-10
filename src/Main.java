@@ -9,7 +9,7 @@ public class Main {
            System.out.println("Установите версию приложения для Android по ссылке");
            } else {
            System.out.println("обратиться за помощью");
-       }
+        }
         //задание 2
         System.out.println("задание 2");
         int clientDeviceYear = 2013;
